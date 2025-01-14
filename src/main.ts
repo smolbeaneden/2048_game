@@ -1,6 +1,6 @@
 import {random} from 'radash';
 import {draw} from 'radash';
-import '../../2048/src/style.css';
+import './style.css';
 
 
 type Board = Array<Array<number | null>>;
