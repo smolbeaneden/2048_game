@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "deploy": "cd dist && git add . && git commit -m 'Deploy' && git push origin gh-pages",
+    "deploy": "cd dist && git add . && git commit -m 'Deploy' && git push origin gh-pages"
   },
   "devDependencies": {
     "typescript": "~5.6.2",
