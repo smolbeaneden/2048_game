@@ -63,6 +63,7 @@ h1 {
   width: var(--board-width);
   position: relative;
   border-radius: 30px;
+  max-width: fit-content;
 }
 
 
@@ -98,13 +99,6 @@ h1 {
   font-size: 3em;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.37);
-
-  -webkit-animation: animate 0.05s ease-in;
-  animation: animate 0.05s ease-in;
-}
-@-webkit-keyframes animate {
-  from {width: 120px; height:120px;}
-  to {width: 130px; height: 130px;}
 }
 
 

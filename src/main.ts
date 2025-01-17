@@ -346,3 +346,18 @@ function getColor(number: number | null): string {
     }
     return values[number] ?? "#2e2e2e";
 }
+
+
+/*
+document.addEventListener(
+    "wheel",
+    function (e) {
+            e.preventDefault();
+
+    },
+    {
+        passive: false
+    }
+);
+
+*/
