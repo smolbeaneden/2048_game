@@ -2,9 +2,6 @@ import {random} from 'radash';
 import {draw} from 'radash';
 import './style.css';
 
-
-
-
 type Board = Array<Array<number | null>>;
 
 interface Point {
